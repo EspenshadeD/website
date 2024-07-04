@@ -3,19 +3,26 @@ project:
   output-dir: docs
   
 website:
-  title: "Knowledge of Job Insecurity and Policy Preferences Supplementary Materials (Anonymized)"
-  navbar:
-    left:
-      - href: home.qmd
+  title: "Wedding"
+  sidebar:
+    search: false 
+    contents:
+      - href: event_info.qmd
+      - href: travel_info.qmd
+      - href: accomendations.qmd
+      - href: registry.qmd
+      - href: RSVP.qmd
+      - href: dress_code.qmd
+      
   page-footer:
     right: ""
-    left: "&copy; Copyright 2024"
+    left: "Duncan & Kelsey's Wedding"
 
 format:
   html:
-    theme: sandstone
+    theme: paper
     mainfont: Georgia
-    title-block-banner-color: rgb(80, 0, 0)
+    title-block-banner-color: rgb(193, 123, 11)
     toc: true
 
 editor: source
