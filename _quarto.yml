@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Knowledge of Job Insecurity and Policy Preferences Supplementary Materials (Anonymized)"
+  navbar:
+    left:
+      - href: home.qmd
+  page-footer:
+    right: ""
+    left: "&copy; Copyright 2024"
+
+format:
+  html:
+    theme: sandstone
+    mainfont: Georgia
+    title-block-banner-color: rgb(80, 0, 0)
+    toc: true
+
+editor: source
+
