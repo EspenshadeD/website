@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: 'images/inn_at_falls.jpg';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}

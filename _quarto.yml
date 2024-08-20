@@ -3,27 +3,24 @@ project:
   output-dir: docs
   
 website:
-  title: "Wedding"
+  title: "Duncan Espenshade"
   sidebar:
-    search: false 
+    title: "Duncan Espenshade"
+    style: "docked"
+    logo: images/espenshade_headshot.jpg
+    search: false
     contents:
-      - href: event_info.qmd
+      - href: overview.qmd
+        text: "Home"
       - href: travel_info.qmd
-      - href: accomendations.qmd
-      - href: registry.qmd
-      - href: RSVP.qmd
-      - href: dress_code.qmd
-      
-  page-footer:
-    right: ""
-    left: "Duncan & Kelsey's Wedding"
-
+      - href: teaching.qmd
+      - href: cv.qmd
+      - href: research.qmd
 format:
   html:
-    theme: paper
-    mainfont: Georgia
-    title-block-banner-color: rgb(193, 123, 11)
-    toc: true
-
+    css: style.css
+    page-layout: full
+    
+    
 editor: source
 
