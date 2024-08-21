@@ -1,42 +1,22 @@
 [
   {
-    "objectID": "travel_info.html",
-    "href": "travel_info.html",
-    "title": "Travel Information",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Circulum Vitea",
     "section": "",
-    "text": "We are near the … airport.\nThe … hotel\n\n\n\nAlt text\n\n\nHotel Rooms",
+    "text": "C.V. 8.20",
     "crumbs": [
-      "Travel Information"
+      "Circulum Vitea"
     ]
   },
   {
-    "objectID": "event_info.html",
-    "href": "event_info.html",
+    "objectID": "overview.html",
+    "href": "overview.html",
     "title": "Event Information",
     "section": "",
-    "text": "We are getting married near a waterfall cause I get my girl WET.",
+    "text": "Homepage",
     "crumbs": [
-      "Event Information"
-    ]
-  },
-  {
-    "objectID": "dress_code.html",
-    "href": "dress_code.html",
-    "title": "Dress Code",
-    "section": "",
-    "text": "Please Christ don’t be naked.",
-    "crumbs": [
-      "Dress Code"
-    ]
-  },
-  {
-    "objectID": "RSVP.html",
-    "href": "RSVP.html",
-    "title": "RSVP",
-    "section": "",
-    "text": "Please RSVP using the Google form below:\n\nLoading…",
-    "crumbs": [
-      "RSVP"
+      "Home"
     ]
   }
 ]
