@@ -5,6 +5,4 @@ about:
   image: images/inn_at_falls.jpg
 ---
 
-
-This is the information
-
+Homepage
