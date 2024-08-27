@@ -140,8 +140,8 @@ h6, .h6 {
 /* 1.2. Common styles
 ================================================== */
 body {
-  background: #f5e8d8;
-  color: #500000;
+  background:#659bc6;
+  color:#659bc6;
 }
 
 html, body {
@@ -156,12 +156,12 @@ a:link, a:visited {
   text-decoration: none;
 }
 a:hover {
-  color: #500000;
+  color:#659bc6;
 }
 a.read-more {
   margin-top: 10px;
   display: inline-block;
-  color: #500000;
+  color:#659bc6;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
@@ -195,7 +195,7 @@ a:focus {
 }
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #500000;
+  border: 1px solid#659bc6;
 }
 
 blockquote {
@@ -224,7 +224,7 @@ blockquote {
 }
 
 .btn-primary {
-  background: #500000;
+  background:#659bc6;
 }
 .btn-primary:hover {
   background: #000;
@@ -242,13 +242,13 @@ blockquote {
 }
 
 .btn-grey {
-  background: #500000;
-  border-color: #500000;
+  background:#659bc6;
+  border-color:#659bc6;
   color: #fff;
 }
 .btn-grey:hover {
   background: transparent;
-  border-color: #500000;
+  border-color:#659bc6;
   color: #000;
 }
 
@@ -265,7 +265,7 @@ blockquote {
 }
 
 .text-color {
-  color: #500000;
+  color:#659bc6;
 }
 
 .bg-grey {
@@ -362,7 +362,7 @@ blockquote {
   padding: 25px 0px;
 }
 .navbar-nav .nav-link:hover {
-  color: #500000 !important;
+  color:#659bc6 !important;
 }
 
 .header-socials a {
@@ -669,7 +669,7 @@ overlay search
   color: rgba(0, 0, 0, 0.7);
 }
 .header-social-wrapper ul li a:hover {
-  background: #500000;
+  background:#659bc6;
   color: #fff;
 }
 
@@ -693,7 +693,7 @@ overlay search
   padding: 0px 10px;
 }
 .dark-header-socials a:hover {
-  color: #500000;
+  color:#659bc6;
 }
 
 @media (max-width: 400px) {
@@ -917,7 +917,7 @@ overlay search
 }
 
 .post-list .cat-name {
-  color: #500000;
+  color:#659bc6;
 }
 .post-list .post-view {
   position: relative;
@@ -1017,13 +1017,13 @@ overlay search
   line-height: 15px;
   font-size: 20px;
   float: left;
-  background: #500000;
+  background:#659bc6;
   color: #fff;
 }
 
 .post_gallery.owl-theme .owl-nav .owl-next {
   float: right;
-  background: #500000;
+  background:#659bc6;
   color: #fff;
   width: 35px;
   height: 53px;
@@ -1044,12 +1044,12 @@ overlay search
   margin: 0 auto;
   font-size: 37px;
   padding-top: 38px;
-  background: #500000;
+  background:#659bc6;
   color: #fff;
 }
 .play-btn:hover {
   background: #fff;
-  color: #500000;
+  color:#659bc6;
 }
 
 @media (max-width: 575px) {
@@ -1117,7 +1117,7 @@ overlay search
 }
 .sidebar-widget.category li span {
   display: inline-block;
-  background: #500000;
+  background:#659bc6;
   color: #fff;
   width: 30px;
   height: 30px;
@@ -1143,7 +1143,7 @@ overlay search
   background: #eee;
 }
 .follow-socials a:hover {
-  background: #500000;
+  background:#659bc6;
   color: #fff;
 }
 
@@ -1167,7 +1167,7 @@ overlay search
   color: #b8b6bb;
 }
 .post-socials a:hover {
-  color: #500000;
+  color:#659bc6;
 }
 
 .pagination ul li a {
@@ -1181,13 +1181,13 @@ overlay search
   font-size: 14px;
 }
 .pagination ul li a:hover {
-  background: #500000;
+  background:#659bc6;
   color: #fff;
 }
 .pagination ul li a.active {
-  background: #500000;
+  background:#659bc6;
   color: #fff;
-  border-color: #500000;
+  border-color:#659bc6;
 }
 
 .post-title {
@@ -1352,7 +1352,7 @@ footer
   font-weight: 600;
 }
 .footer-socials li a:hover, .footer-socials-2 li a:hover {
-  color: #500000;
+  color:#659bc6;
 }
 
 .footer-socials li a {

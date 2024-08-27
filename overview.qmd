@@ -1,8 +1,44 @@
 ---
-title: "Event Information"
-about:
-  template: trestles
-  image: images/inn_at_falls.jpg
+title: "Overview"
+format: html
 ---
 
-Homepage
+
+
+```{=html}
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .box {
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      width: fit-content;
+      margin: 20px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+  <title>White Background Box</title>
+</head>
+<body>
+  <div class="box">
+    <p>
+My research agenda explores how cognitive processes influence policy adoption related to international relations. As the world grows evermore interconnected, assuming populations and politicians behave as strictly informed rational actors is insufficient. Humans seek to make political decisions that will maximize their utility, but often lack complete information on political processes and are their preferences influenced by social phenomena or cognitive biases. It is critical to understand how human nature assists or impedes governments and people, especially in international relations, where actors make decisions about conflict, trade, or the movement of people that potentially affect millions of lives.  <p>
+
+  <p> There are several areas of interest within this broader research agenda. The first is the international relations policy. My article "Leader's Gendered Rhetoric and Aggressive Foreign Policy" explores how gendered pressures to perform masculine may influence female leaders to enact more militant foreign policy. It also utilizes leaders' rhetoric to explore the development of this gendered performance through their careers. The current results of this project suggest that women leaders use more aggressive rhetoric than female politicians who are not in positions of power. It also finds that this relationship decreases with female representation in legislatures, suggesting as more women are elected into office, the pressure for female leaders to behave more masculine decreases.  <p>
+
+  <p> My second research interest is migration. At the intersection of migration and international relations policy is my first dissertation chapter, "A Unified Theory of Asylum Policy Making," which introduces a novel theoretical concept of restrictive capacity to explore variation in adopting restrictive asylum policies across regions. While existing accounts of asylum policy-making emphasize unique drivers of asylum policy in the regions under study, this article provides a unified theory that can explain the adoption of asylum policy both within and between regions. Namely, it looks at a state's capacity to restrict incoming asylum flows and the number of outflowing asylum seekers from nearby states to predict asylum policy adoption across and within regions.   <p>
+
+  <p> The third interest is social cognition. Specifically, I am interested in the processes by which individuals collect information and learn. My experiment, the "Instrumental Consumption of Emotional Media," proposes that individuals may selectively expose themselves to emotional media to make political decisions more efficiently. This is due to humans preferring to make decisions using the least amount of cognitive effort required and emotional states causing individuals to be less risk-averse and make quicker decisions. The experiment finds evidence of this phenomena. Given the context of a massively diversifying media environment individuals can consume from, the concern is that as the number of available media sources continues to expand, individuals will expose themselves to media that will induce precise emotions and instill the exact responses that will only serve to reinforce extant beliefs and behaviors.   <p>
+
+  <p> Relating to all three of these areas of interest is my second dissertation chapter, " Knowledge of Job Insecurities and Policy Preferences," which I seek funding for in this grant proposal. This project explores how workers form preferences about trade and migration policies contingent on their perceptions--or misperceptions--of occupational job insecurity. Original survey data regarding workers' perceptions of job risk will be collected and experimentally manipulated to determine how they influence policy support.   <p>
+
+  </div>
+</body>
+</html>
+
+
+```

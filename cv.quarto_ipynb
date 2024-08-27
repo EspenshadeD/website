@@ -1,0 +1,42 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Circulum Vitea\"\n",
+        "format:\n",
+        "  html:\n",
+        "    css: style.css\n",
+        "    page-layout: full\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "C.V. 8.20\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "```{html}\n",
+        "\n",
+        "\n",
+        "<iframe src=\"pdfs/Espenshade_Duncan_CV_8_21_24.pdf\" width=\"600\" height=\"500\"></iframe>\n",
+        "\n",
+        "```"
+      ],
+      "id": "9b20ae20"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

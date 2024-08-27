@@ -1,22 +1,42 @@
 [
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Circulum Vitea",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "C.V. 8.20",
+    "text": "Two Images Side by Side\n  \n\n\n  \n      \n    \n  \n\n\n\n\n  \n  \n  Three PDFs in Columns",
     "crumbs": [
-      "Circulum Vitea"
+      "Teaching"
     ]
   },
   {
     "objectID": "overview.html",
     "href": "overview.html",
-    "title": "Event Information",
+    "title": "Overview",
     "section": "",
-    "text": "Homepage",
+    "text": "White Background Box\n\n\n  \n    \nMy research agenda explores how cognitive processes influence policy adoption related to international relations. As the world grows evermore interconnected, assuming populations and politicians behave as strictly informed rational actors is insufficient. Humans seek to make political decisions that will maximize their utility, but often lack complete information on political processes and are their preferences influenced by social phenomena or cognitive biases. It is critical to understand how human nature assists or impedes governments and people, especially in international relations, where actors make decisions about conflict, trade, or the movement of people that potentially affect millions of lives.  \n\n   There are several areas of interest within this broader research agenda. The first is the international relations policy. My article \"Leader's Gendered Rhetoric and Aggressive Foreign Policy\" explores how gendered pressures to perform masculine may influence female leaders to enact more militant foreign policy. It also utilizes leaders' rhetoric to explore the development of this gendered performance through their careers. The current results of this project suggest that women leaders use more aggressive rhetoric than female politicians who are not in positions of power. It also finds that this relationship decreases with female representation in legislatures, suggesting as more women are elected into office, the pressure for female leaders to behave more masculine decreases.  \n\n   My second research interest is migration. At the intersection of migration and international relations policy is my first dissertation chapter, \"A Unified Theory of Asylum Policy Making,\" which introduces a novel theoretical concept of restrictive capacity to explore variation in adopting restrictive asylum policies across regions. While existing accounts of asylum policy-making emphasize unique drivers of asylum policy in the regions under study, this article provides a unified theory that can explain the adoption of asylum policy both within and between regions. Namely, it looks at a state's capacity to restrict incoming asylum flows and the number of outflowing asylum seekers from nearby states to predict asylum policy adoption across and within regions.   \n\n   The third interest is social cognition. Specifically, I am interested in the processes by which individuals collect information and learn. My experiment, the \"Instrumental Consumption of Emotional Media,\" proposes that individuals may selectively expose themselves to emotional media to make political decisions more efficiently. This is due to humans preferring to make decisions using the least amount of cognitive effort required and emotional states causing individuals to be less risk-averse and make quicker decisions. The experiment finds evidence of this phenomena. Given the context of a massively diversifying media environment individuals can consume from, the concern is that as the number of available media sources continues to expand, individuals will expose themselves to media that will induce precise emotions and instill the exact responses that will only serve to reinforce extant beliefs and behaviors.   \n\n   Relating to all three of these areas of interest is my second dissertation chapter, \" Knowledge of Job Insecurities and Policy Preferences,\" which I seek funding for in this grant proposal. This project explores how workers form preferences about trade and migration policies contingent on their perceptions--or misperceptions--of occupational job insecurity. Original survey data regarding workers' perceptions of job risk will be collected and experimentally manipulated to determine how they influence policy support.",
     "crumbs": [
       "Home"
+    ]
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Circulum Vitea",
+    "section": "",
+    "text": "Fullscreen Iframe",
+    "crumbs": [
+      "Circulum Vitea"
+    ]
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "research",
+    "section": "",
+    "text": "A General Theory of Asylum Policy Making\nKnowledge of Job Insecurities and Policy Preferences\nFemale Executives, Aggressive Rhetoric, and Militant Foreign Policy",
+    "crumbs": [
+      "research"
     ]
   }
 ]
