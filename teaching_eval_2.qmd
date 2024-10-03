@@ -1,0 +1,32 @@
+---
+title: "Teaching Evaluations: Student Comments"
+format:
+  html:
+    css: style.css
+    page-layout: full
+---
+
+These open-ended student evaluations were taken while I was a teaching assistant for two sections of POLS 209 in Fall 2021.
+
+```{=html}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullscreen Iframe</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="pdfs/evals_3.pdf""></iframe>
+</body>
+```

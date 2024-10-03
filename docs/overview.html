@@ -40,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -71,67 +71,64 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="nav-sidebar docked">
+<body id="body" class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./overview.html">Home</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/espenshade_headshot.jpg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Duncan Espenshade</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./overview.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./overview2.qmg"> 
+<span class="menu-text">Home 2</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">Circulum Vitea</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact Information</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/espenshade_headshot.jpg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">Duncan Espenshade</a> 
-    </div>
-      </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./overview.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./teaching.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teaching</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cv.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Circulum Vitea</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./research.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">research</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -140,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -155,23 +152,118 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .box {
-      background-color: white;
-      padding: 20px;
-      border: 1px solid #ccc;
-      width: fit-content;
-      margin: 20px;
-      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    }
-  </style>
-  <title>White Background Box</title>
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Airspace | Creative Agency Bootstrap Template</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Agency Bootstrap Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="theme-name" content="airspace">
+  <meta name="generator" content="Themefisher Airspace Template v1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
 
-  <div class="box">
-    <p>
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Ionic Icon Css -->
+  <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+<!-- Header Start -->
+<header class="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg p-0">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="ion-android-menu"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse ml-auto" id="navbarsExample09">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown @@portfolio">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span class="ion-ios-arrow-down"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                                    <li><a class="dropdown-item @@portfolioFilter" href="portfolio.html">Portfolio Filter</a></li>
+                                    <li><a class="dropdown-item @@portfolioSingle" href="portfolio-single.html">Portfolio Single</a></li>
+
+                                    <li class="dropdown dropdown-submenu dropright">
+                                        <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+                                            <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+                                            <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item @@service"><a class="nav-link" href="service.html">Service</a></li>
+                            <li class="nav-item dropdown @@blog">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <span class="ion-ios-arrow-down"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                                    <li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
+                                    <li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
+                                    <li><a class="dropdown-item @@blogRS" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                    <li><a class="dropdown-item @@blogLS" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                    <li><a class="dropdown-item @@blogFW" href="blog-full-width.html">Blog Full Width</a></li>
+
+                                    <li class="dropdown dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                                            <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+                                            <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown @@pages">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                                    <li><a class="dropdown-item @@about" href="about.html">About Us</a></li>
+                                    <li><a class="dropdown-item @@comingSoon" href="coming-soon.html">Coming Soon</a></li>
+                                    <li><a class="dropdown-item @@404" href="404.html">404 Page</a></li>
+                                    <li><a class="dropdown-item @@faq" href="faq.html">FAQ</a></li>
+                                    <li><a class="dropdown-item @@pricing" href="pricing.html">Pricing Table</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header><!-- header close -->
+
+
+
+ <p>
 My research agenda explores how cognitive processes influence policy adoption related to international relations. As the world grows evermore interconnected, assuming populations and politicians behave as strictly informed rational actors is insufficient. Humans seek to make political decisions that will maximize their utility, but often lack complete information on political processes and are their preferences influenced by social phenomena or cognitive biases. It is critical to understand how human nature assists or impedes governments and people, especially in international relations, where actors make decisions about conflict, trade, or the movement of people that potentially affect millions of lives.  </p><p>
 
   </p><p> There are several areas of interest within this broader research agenda. The first is the international relations policy. My article "Leader's Gendered Rhetoric and Aggressive Foreign Policy" explores how gendered pressures to perform masculine may influence female leaders to enact more militant foreign policy. It also utilizes leaders' rhetoric to explore the development of this gendered performance through their careers. The current results of this project suggest that women leaders use more aggressive rhetoric than female politicians who are not in positions of power. It also finds that this relationship decreases with female representation in legislatures, suggesting as more women are elected into office, the pressure for female leaders to behave more masculine decreases.  </p><p>
@@ -182,9 +274,112 @@ My research agenda explores how cognitive processes influence policy adoption re
 
   </p><p> Relating to all three of these areas of interest is my second dissertation chapter, " Knowledge of Job Insecurities and Policy Preferences," which I seek funding for in this grant proposal. This project explores how workers form preferences about trade and migration policies contingent on their perceptions--or misperceptions--of occupational job insecurity. Original survey data regarding workers' perceptions of job risk will be collected and experimentally manipulated to determine how they influence policy support.   </p><p>
 
-  </p></div>
+<!-- Slider Start -->
+</p><section class="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="animated fadeInUp">A Digital Marketing <br>  &amp; Design Agency</h1>
+                    <p class="animated fadeInUp">We love the Web and the work we do.We work closely with our clients to deliver <br>  the best possible solutions for their needs</p>
+                    <a href="https://themefisher.com/free-bootstrap-templates/" class="btn btn-main animated fadeInUp">Free Bootstrap Templates</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Wrapper Start -->
+<section class="about section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="block">
+                    <div class="section-title">
+                        <h2 class="anchored">About Us</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                        anim id </p>
+                </div>
+            </div><!-- .col-md-7 close -->
+            <div class="col-md-5">
+                <div class="block">
+                    <img src="images/wrapper-img.png" alt="Img">
+                </div>
+            </div><!-- .col-md-5 close -->
+        </div>
+    </div>
+</section>
 
+<section class="feature bg-2">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-md-6">
+        <h2 class="section-subtitle anchored">WE BELIEVE IN GREAT IDEAS</h2>
+        <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce
+          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        </p>
+        <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce
+          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        </p>
+        <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce
+          dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+        </p>
+        <a href="portfolio.html" class="btn btn-view-works">View Works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Start -->
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h2 class="anchored">Quantitative Skills</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="icon ion-coffee"></i>
+          <h4 class="anchored">Time Series Modelling </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4 class="anchored">Spatial Modelling</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-image"></i>
+          <h4 class="anchored">Text Analysis</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4 class="anchored">Experimental Methods</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 

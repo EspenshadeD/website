@@ -4,18 +4,20 @@ project:
   
 website:
   title: "Duncan Espenshade"
-  sidebar:
-    title: "Duncan Espenshade"
-    style: "docked"
+  navbar:
     logo: images/espenshade_headshot.jpg
     search: false
-    contents:
+    left:
       - href: overview.qmd
         text: "Home"
-      - href: travel_info.qmd
+      - href: overview2.qmg
+        text: "Home 2"
       - href: teaching.qmd
+        text: "Teaching"
       - href: cv.qmd
       - href: research.qmd
+      - href: contact.qmd
+        text: "Contact Information"
 format:
   html:
     css: style.css
