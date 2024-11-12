@@ -1,0 +1,321 @@
+---
+format: html
+---
+
+```{=html}
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title> Duncan Espenshade's Website </title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Duncan Espenshade's Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="Duncan Espenshade" content="Themefisher">
+  <meta name="theme-name" content="airspace">
+  <meta name="generator" content="Themefisher Airspace Template v1.0">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- Ionic Icon Css -->
+  <link rel="stylesheet" href="plugins/Ionicons/css/ionicons.min.css">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="plugins/animate-css/animate.css">
+  <!-- Magnify Popup -->
+  <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+      <style>
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .image {
+            max-width: 600px; /* Adjust as necessary */
+            margin-right: 20px; /* Space between image and text */
+        }
+        .text {
+            max-width: 300px; /* Adjust as necessary */
+        }
+        
+        /* Container to hold both columns */
+    .container {
+      display: flex;
+      width: 100%;
+      height: 100vh;  /* Make the container fill the entire viewport height */
+      justify-content: space-between;
+    }
+
+    /* Left column style (text content) */
+    .left-column {
+      width: 60%;  /* Takes 60% of the width */
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-column h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .left-column p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    /* Right column style (image content) */
+    .right-column {
+      width: 40%;  /* Takes 40% of the width */
+      background-color: #fff;
+      overflow: hidden; /* Hide any overflowing content */
+    }
+
+    .right-column img {
+      width: 100%;   /* Make the image fill the entire width of the right column */
+      height: 100%;  /* Make the image fit the height of the column */
+      object-fit: cover;  /* Ensure the image covers the entire column height */
+    }
+    
+    
+    </style>
+    
+    
+</head>
+<body id="body">
+
+ <p>
+My research agenda explores how cognitive processes influence policy adoption related to international relations. As the world grows evermore interconnected, assuming populations and politicians behave as strictly informed rational actors is insufficient. Humans seek to make political decisions that will maximize their utility, but often lack complete information on political processes and are their preferences influenced by social phenomena or cognitive biases. It is critical to understand how human nature assists or impedes governments and people, especially in international relations, where actors make decisions about conflict, trade, or the movement of people that potentially affect millions of lives.  <p>
+
+  <p> There are several areas of interest within this broader research agenda. The first is the international relations policy. My article "Leader's Gendered Rhetoric and Aggressive Foreign Policy" explores how gendered pressures to perform masculine may influence female leaders to enact more militant foreign policy. It also utilizes leaders' rhetoric to explore the development of this gendered performance through their careers. The current results of this project suggest that women leaders use more aggressive rhetoric than female politicians who are not in positions of power. It also finds that this relationship decreases with female representation in legislatures, suggesting as more women are elected into office, the pressure for female leaders to behave more masculine decreases.  <p>
+
+  <p> My second research interest is migration. At the intersection of migration and international relations policy is my first dissertation chapter, "A Unified Theory of Asylum Policy Making," which introduces a novel theoretical concept of restrictive capacity to explore variation in adopting restrictive asylum policies across regions. While existing accounts of asylum policy-making emphasize unique drivers of asylum policy in the regions under study, this article provides a unified theory that can explain the adoption of asylum policy both within and between regions. Namely, it looks at a state's capacity to restrict incoming asylum flows and the number of outflowing asylum seekers from nearby states to predict asylum policy adoption across and within regions.   <p>
+
+  <p> The third interest is social cognition. Specifically, I am interested in the processes by which individuals collect information and learn. My experiment, the "Instrumental Consumption of Emotional Media," proposes that individuals may selectively expose themselves to emotional media to make political decisions more efficiently. This is due to humans preferring to make decisions using the least amount of cognitive effort required and emotional states causing individuals to be less risk-averse and make quicker decisions. The experiment finds evidence of this phenomena. Given the context of a massively diversifying media environment individuals can consume from, the concern is that as the number of available media sources continues to expand, individuals will expose themselves to media that will induce precise emotions and instill the exact responses that will only serve to reinforce extant beliefs and behaviors.   <p>
+
+  <p> Relating to all three of these areas of interest is my second dissertation chapter, " Knowledge of Job Insecurities and Policy Preferences," which I seek funding for in this grant proposal. This project explores how workers form preferences about trade and migration policies contingent on their perceptions--or misperceptions--of occupational job insecurity. Original survey data regarding workers' perceptions of job risk will be collected and experimentally manipulated to determine how they influence policy support.   <p>
+
+
+ <div class="container">
+    <!-- Left column with text -->
+    <div class="left-column">
+      <h1>Welcome to My Website</h1>
+      <p>This is the left column where text content goes. It takes up 60% of the page's width, allowing plenty of space for paragraphs, headings, and other elements.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec nec volutpat lectus. Curabitur ullamcorper ligula at justo condimentum vehicula. Phasellus et dui nec purus sollicitudin aliquet.</p>
+    </div>
+
+    <!-- Right column with image -->
+    <div class="right-column">
+      <img src="https://via.placeholder.com/600x800" alt="Placeholder Image">
+    </div>
+  </div>
+  
+  
+  
+<!-- Slider Start -->
+<section class="slider">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h1 class="animated fadeInUp">A Digital Marketing <br>  &#38; Design Agency</h1>
+					<p class="animated fadeInUp">We love the Web and the work we do.We work closely with our clients to deliver </br>  the best possible solutions for their needs</p>
+					<a href="https://themefisher.com/free-bootstrap-templates/" class="btn btn-main animated fadeInUp" >Free Bootstrap Templates</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!-- Service Start -->
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h2>Quantitative Skills</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="icon ion-coffee"></i>
+          <h4>Time Series Modelling </h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-compass"></i>
+          <h4>Spatial Modelling</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-image"></i>
+          <h4>Text Analysis</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4>Experimental Methods</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Wrapper Start -->
+<section class="about section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="block">
+					<div class="section-title">
+						<h2>About Me</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+							blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+						ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+						anim id </p>
+				</div>
+			</div><!-- .col-md-7 close -->
+			<div class="col-md-5">
+				<div class="block">
+					<img src="images/wrapper-img.png" alt="Img">
+				</div>
+			</div><!-- .col-md-5 close -->
+		</div>
+	</div>
+</section>
+
+
+```
+
+
+<!-- <!-- -->
+<!-- <!-- Header Start --> 
+<!-- <header class="navigation"> -->
+<!-- 	<div class="container"> -->
+<!-- 		<div class="row"> -->
+<!-- 			<div class="col-lg-12"> -->
+<!-- 				<nav class="navbar navbar-expand-lg p-0"> -->
+<!-- 					<a class="navbar-brand" href="index.html"> -->
+<!-- 					</a> -->
+<!-- 					<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation"> -->
+<!-- 						<span class="ion-android-menu"></span> -->
+<!-- 					</button> -->
+<!-- 					<div class="collapse navbar-collapse ml-auto" id="navbarsExample09"> -->
+<!-- 						<ul class="navbar-nav ml-auto"> -->
+<!-- 							<li class="nav-item active"> -->
+<!-- 								<a class="nav-link" href="index.html">Home</a> -->
+<!-- 							</li> -->
+<!-- 							<li class="nav-item dropdown @@portfolio"> -->
+<!-- 								<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span class="ion-ios-arrow-down"></span></a> -->
+<!-- 								<ul class="dropdown-menu" aria-labelledby="dropdown03"> -->
+<!-- 									<li><a class="dropdown-item @@portfolioFilter" href="portfolio.html">Portfolio Filter</a></li> -->
+<!-- 									<li><a class="dropdown-item @@portfolioSingle" href="portfolio-single.html">Portfolio Single</a></li> -->
+
+<!-- 									<li class="dropdown dropdown-submenu dropright"> -->
+<!-- 										<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" -->
+<!-- 											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a> -->
+
+<!-- 										<ul class="dropdown-menu" aria-labelledby="dropdown0301"> -->
+<!-- 											<li><a class="dropdown-item" href="index.html">Submenu 01</a></li> -->
+<!-- 											<li><a class="dropdown-item" href="index.html">Submenu 02</a></li> -->
+<!-- 										</ul> -->
+<!-- 									</li> -->
+<!-- 								</ul> -->
+<!-- 							</li> -->
+<!-- 							<li class="nav-item @@service"><a class="nav-link" href="service.html">Service</a></li> -->
+<!-- 							<li class="nav-item dropdown @@blog"> -->
+<!-- 								<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" -->
+<!-- 									aria-expanded="false">Blog <span class="ion-ios-arrow-down"></span></a> -->
+<!-- 								<ul class="dropdown-menu" aria-labelledby="dropdown05"> -->
+<!-- 									<li><a class="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li> -->
+<!-- 									<li><a class="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li> -->
+<!-- 									<li><a class="dropdown-item @@blogRS" href="blog-right-sidebar.html">Blog Right Sidebar</a></li> -->
+<!-- 									<li><a class="dropdown-item @@blogLS" href="blog-left-sidebar.html">Blog Left Sidebar</a></li> -->
+<!-- 									<li><a class="dropdown-item @@blogFW" href="blog-full-width.html">Blog Full Width</a></li> -->
+
+<!-- 									<li class="dropdown dropdown-submenu dropleft"> -->
+<!-- 										<a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" -->
+<!-- 											data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a> -->
+
+<!-- 										<ul class="dropdown-menu" aria-labelledby="dropdown0501"> -->
+<!-- 											<li><a class="dropdown-item" href="index.html">Submenu 01</a></li> -->
+<!-- 											<li><a class="dropdown-item" href="index.html">Submenu 02</a></li> -->
+<!-- 										</ul> -->
+<!-- 									</li> -->
+<!-- 								</ul> -->
+<!-- 							</li> -->
+<!-- 							<li class="nav-item dropdown @@pages"> -->
+<!-- 								<a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" -->
+<!-- 									aria-expanded="false">Pages <span class="ion-ios-arrow-down"></span></a> -->
+<!-- 								<ul class="dropdown-menu" aria-labelledby="dropdown05"> -->
+<!-- 									<li><a class="dropdown-item @@about" href="about.html">About Us</a></li> -->
+<!-- 									<li><a class="dropdown-item @@comingSoon" href="coming-soon.html">Coming Soon</a></li> -->
+<!-- 									<li><a class="dropdown-item @@404" href="404.html">404 Page</a></li> -->
+<!-- 									<li><a class="dropdown-item @@faq" href="faq.html">FAQ</a></li> -->
+<!-- 									<li><a class="dropdown-item @@pricing" href="pricing.html">Pricing Table</a></li> -->
+<!-- 								</ul> -->
+<!-- 							</li> -->
+<!-- 							<li class="nav-item @@contact"><a class="nav-link" href="contact.html">Contact</a></li> -->
+<!-- 						</ul> -->
+<!-- 					</div> -->
+<!-- 				</nav> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+<!-- 	</div> -->
+<!-- </header><!-- header close -->
+
+
+
+<!-- <section class="feature bg-2"> -->
+<!--   <div class="container"> -->
+<!--     <div class="row justify-content-end"> -->
+<!--       <div class="col-md-6"> -->
+<!--         <h2 class="section-subtitle">WE BELIEVE IN GREAT IDEAS</h2> -->
+<!--         <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce -->
+<!--           dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. -->
+<!--         </p> -->
+<!--         <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce -->
+<!--           dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. -->
+<!--         </p> -->
+<!--         <p>Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce -->
+<!--           dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. -->
+<!--         </p> -->
+<!--         <a href="portfolio.html" class="btn btn-view-works">View Works</a> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
+

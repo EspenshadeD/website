@@ -24,6 +24,7 @@ title: "Teaching"
         .text {
             max-width: 300px; /* Adjust as necessary */
         }
+        
     </style>
 </head>
 <body>

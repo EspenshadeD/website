@@ -8,10 +8,8 @@ website:
     logo: images/espenshade_headshot.jpg
     search: false
     left:
-      - href: overview.qmd
+      - href: index.qmd
         text: "Home"
-      - href: overview2.qmg
-        text: "Home 2"
       - href: teaching.qmd
         text: "Teaching"
       - href: cv.qmd
@@ -21,7 +19,7 @@ website:
 format:
   html:
     css: style.css
-    page-layout: full
+    page-layout: article
     
     
 editor: source
