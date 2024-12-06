@@ -6,6 +6,19 @@ title: "Teaching"
 
 ```{=html}
 
+<style>
+  figure {
+    text-align: center;
+  }
+
+  figcaption {
+    font-style: italic;
+    color: #555;
+  }
+</style>
+
+
+
 <html lang="en">
 <head>
 
@@ -54,14 +67,12 @@ When I was a teaching assistant for POLS 209 in the Spring of 2024 and in the Sp
 The purpose of the POLS 308 lab was to solve game theoretic problems with the students to provide them with experience with solving the types of questions they would see in their homework and exams. Solving game theoretic questions involves applied calculus. Unfortunately, however, due to course requirement issues, completing a university-level calculus course was not a prerequisite for enrollment in this course. As such, much of my office hours were spent reviewing both calculus and our covered solution concepts with students, who often struggled greatly with the materials. 
 <p>
 
-<div class="container">
+
+<figure>
     <img src="Images/phil_gramm_graphic.png" alt="Description of image" class="image">
-    <div class="text">
-        <p>
-         Figure One
-        </p>
-    </div>
-</div>
+  <figcaption>Figure One</figcaption>
+</figure>
+
 
 </body>
 
@@ -77,14 +88,12 @@ The average teaching evaluation scores for each section are shown in Figure 1 ab
 
 <body>
 
-<div class="container">
+
+<figure>
     <img src="Images/phil_gramm_grades.png" alt="Description of image" class="image">
-    <div class="text">
-        <p>
-           Figure Two
-        </p>
-    </div>
-</div>
+  <figcaption>Figure Two</figcaption>
+</figure>
+
 
 
 <p>
