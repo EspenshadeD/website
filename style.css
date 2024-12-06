@@ -83,7 +83,7 @@ blockquote {
 }
 
 .navbar-toggle .icon-bar {
-  background: #655E7A;
+  background: #500000;
 }
 
 input[type=email],
@@ -333,7 +333,7 @@ input[type=tel]:focus {
 }
 .heading p {
   font-size: 18px;
-  line-height: 80px;
+  line-height: 40px;
   color: #292929;
   font-weight: 300;
 }
@@ -650,7 +650,7 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #500000;
   padding: 10px 26px;
   font-size: 15px;
 }
@@ -687,6 +687,7 @@ header .navbar-default .navbar-nav li a:hover {
     text-align: center;
   }
 }
+
 .navigation .navbar .navbar-nav > li > a {
   color: #5C5C5C;
   padding: 10px 15px;
@@ -701,7 +702,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .navigation .navbar .navbar-nav li.active > a {
   text-decoration: underline;
-  color: #655E7A;
+  color: #500000;
 }
 .navigation .navbar .dropdown-menu {
   border-radius: 0;
@@ -730,7 +731,7 @@ header .navbar-default .navbar-nav li a:hover {
   transition: all 0.3s ease;
 }
 .navigation .navbar .dropdown-menu a:focus, .navigation .navbar .dropdown-menu a:hover {
-  background: #655E7A;
+  background: #500000;
   color: #fff;
 }
 

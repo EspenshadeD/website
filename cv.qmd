@@ -1,5 +1,5 @@
 ---
-title: "Circulum Vitea"
+title: "CV & Resume"
 format:
   html:
     css: style.css
@@ -8,24 +8,20 @@ format:
 
 
 ```{=html}
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fullscreen Iframe</title>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed PDF Files</title>
 </head>
 <body>
-  <iframe src="pdfs/Espenshade_Duncan_CV_8_21_24.pdf""></iframe>
+
+    <h2>Circulum Vitea</h2>
+    <embed  src="pdfs/Espenshade_Duncan_CV_8_21_24.pdf" width="1200" height="500" type="application/pdf">
+
+    <h2>Resume</h2>
+    <embed  src="pdfs/Espenshade_Resume_12_5.pdf" width="1200" height="500" type="application/pdf">
+
 </body>
+</html>
 ```

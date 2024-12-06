@@ -1,0 +1,129 @@
+---
+title: "temp"
+---
+
+```{=html}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scrolling with Cool Transitions</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Main container to wrap the horizontal sections */
+    .scroll-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+    }
+
+    /* Each section's styles */
+    .section {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      scroll-snap-align: start;
+      transition: transform 1s ease, opacity 1s ease;
+    }
+
+    /* Background images for different sections */
+    .section:nth-child(1) {
+      background: url('https://via.placeholder.com/1920x1080/FF5733/ffffff?text=Section+1') center/cover no-repeat;
+    }
+    .section:nth-child(2) {
+      background: url('https://via.placeholder.com/1920x1080/33FF57/ffffff?text=Section+2') center/cover no-repeat;
+    }
+    .section:nth-child(3) {
+      background: url('https://via.placeholder.com/1920x1080/3357FF/ffffff?text=Section+3') center/cover no-repeat;
+    }
+    .section:nth-child(4) {
+      background: url('https://via.placeholder.com/1920x1080/FF33A1/ffffff?text=Section+4') center/cover no-repeat;
+    }
+
+    /* For text inside each section */
+    .section .content {
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Add subtle animations for transitions */
+    .section {
+      opacity: 0;
+    }
+
+    /* When a section is in view, make it visible */
+    .section.in-view {
+      opacity: 1;
+    }
+
+    /* Optional styling for the body */
+    body {
+      background-color: #f5f5f5;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="scroll-container">
+    <div class="section">
+      <div class="content">My research agenda explores how cognitive processes influence policy adoption related to international relations. As the world grows evermore interconnected, assuming populations and politicians behave as strictly informed rational actors is insufficient. Humans seek to make political decisions that will maximize their utility, but often lack complete information on political processes and are their preferences influenced by social phenomena or cognitive biases. It is critical to understand how human nature assists or impedes governments and people, especially in international relations, where actors make decisions about conflict, trade, or the movement of people that potentially affect millions of lives.</div>
+    </div>
+    <div class="section">
+      <div class="content">There are several areas of interest within this broader research agenda. The first is the international relations policy. My article "Leader's Gendered Rhetoric and Aggressive Foreign Policy" explores how gendered pressures to perform masculine may influence female leaders to enact more militant foreign policy. It also utilizes leaders' rhetoric to explore the development of this gendered performance through their careers. The current results of this project suggest that women leaders use more aggressive rhetoric than female politicians who are not in positions of power. It also finds that this relationship decreases with female representation in legislatures, suggesting as more women are elected into office, the pressure for female leaders to behave more masculine decreases. </div>
+    </div>
+    <div class="section">
+      <div class="content">Section 3</div>
+    </div>
+    <div class="section">
+      <div class="content">Section 4</div>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript to detect when a section is in view
+    const sections = document.querySelectorAll('.section');
+
+    function checkScrollPosition() {
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom >= 0) {
+          section.classList.add('in-view');
+        } else {
+          section.classList.remove('in-view');
+        }
+      });
+    }
+
+    // Add event listener to detect scroll and check visibility of sections
+    window.addEventListener('scroll', checkScrollPosition);
+
+    // Initial check on page load
+    checkScrollPosition();
+  </script>
+
+</body>
+</html>
+
+
+```

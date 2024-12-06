@@ -6,13 +6,13 @@ website:
   title: "Duncan Espenshade"
   navbar:
     logo: images/espenshade_headshot.jpg
-    search: false
     left:
       - href: index.qmd
         text: "Home"
       - href: teaching.qmd
         text: "Teaching"
       - href: cv.qmd
+        text: "CV & Resume"
       - href: research.qmd
       - href: contact.qmd
         text: "Contact Information"

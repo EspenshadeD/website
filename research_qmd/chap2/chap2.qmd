@@ -1,0 +1,38 @@
+---
+title: "Overview"
+---
+## Section B: Experiment Materials
+[Power Analysis R-File](chap2_power_experiment.qmd)
+
+[Data Codebook](chap2_experiment_codebook.qmd)
+
+[Anonymized Full Pilot Experiment](chap2_experiment_full_pilot.qmd)
+
+[Anonymized Full  Experiment](chap2_experiment_full.qmd)
+
+[Anonymized IRB Application](chap2_irb.qmd)
+
+[Anonymized Experiment Preregistration](chap2_experiment_preregistration.qmd)
+
+## Section C: Survey Materials
+[Data Generation R-File (Power Analysis)](chap2_power_survey.qmd)
+
+[Power Analysis Plots R-File](chap2_power_survey_plot.qmd)
+
+[Power Analysis Justification](chap2_power_survey_just.qmd)
+
+[Survey Provider Justification](chap2_survey_prov_just.qmd)
+
+[Data Codebook](chap2_survey_codebook.qmd)
+
+[Anonymized Survey](chap2_survey_full.qmd)
+
+[Anonymized IRB Application](chap2_irb_survey.qmd)
+
+
+# Additional Materials: 
+
+## Previously Received Grants
+[Anonymized Dissertation Grant Received](chap2_grants.qmd)
+
+[Anonymized Dissertation Grant Extension](chap2_grants_ext.qmd)

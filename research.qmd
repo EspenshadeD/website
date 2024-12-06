@@ -2,8 +2,45 @@
 title: "Research"
 ---
 
-**A General Theory of Asylum Policy Making**
+<!-- # A General Theory of Asylum Policy Making -->
 
-**Knowledge of Job Insecurities and Policy Preferences**
+## Knowledge of Job Insecurities and Policy Preference Supplementary Materials
 
-**Female Executives, Aggressive Rhetoric, and Militant Foreign Policy**
+### Section B: Experiment Materials
+
+[Power Analysis R-File](research_qmd/chap2/chap2_power_experiment.qmd)
+
+[Anonymized Full Pilot Experiment](research_qmd/chap2/chap2_experiment_full_pilot.qmd)
+
+[Anonymized Full Experiment](research_qmd/chap2/chap2_experiment_full.qmd)
+
+[Anonymized IRB Application](research_qmd/chap2/chap2_irb.qmd)
+
+[Anonymized Experiment Preregistration](research_qmd/chap2/chap2_experiment_preregistration.qmd)
+
+### Section C: Survey Materials
+
+[Data Generation R-File (Power Analysis)](research_qmd/chap2/chap2_power_survey.qmd)
+
+[Power Analysis Plots R-File](research_qmd/chap2/chap2_power_survey_plot.qmd)
+
+[Power Analysis Justification](research_qmd/chap2/chap2_power_survey_just.qmd)
+
+[Survey Provider Justification](research_qmd/chap2/chap2_survey_prov_just.qmd)
+
+[Anonymized Survey](research_qmd/chap2/chap2_survey_full.qmd)
+
+[Anonymized IRB Application](research_qmd/chap2/chap2_irb_survey.qmd)
+
+## Additional Materials:
+
+### Previously Received Grants
+
+[Anonymized Dissertation Grant Received](research_qmd/chap2/chap2_grants.qmd)
+
+[Anonymized Dissertation Grant Extension](research_qmd/chap2/chap2_grants_ext.qmd)
+
+
+# Female Executives, Aggressive Rhetoric, and Militant Foreign Policy 
+
+
