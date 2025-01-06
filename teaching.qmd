@@ -5,20 +5,6 @@ title: "Teaching"
 
 
 ```{=html}
-
-<style>
-  figure {
-    text-align: center;
-  }
-
-  figcaption {
-    font-style: italic;
-    color: #555;
-  }
-</style>
-
-
-
 <html lang="en">
 <head>
 
@@ -32,11 +18,16 @@ title: "Teaching"
             padding: 20px;
         }
         .image {
-            max-width: 600px; /* Adjust as necessary */
+            max-width: 300px; /* Adjust as necessary */
             margin-right: 20px; /* Space between image and text */
         }
         .text {
             max-width: 300px; /* Adjust as necessary */
+        }
+        
+        .figure {
+            max-width: 300px; /* Adjust as necessary */
+            margin-right: 20px; /* Space between image and text */
         }
         
     </style>
@@ -65,16 +56,25 @@ When I was a teaching assistant for POLS 209 in the Spring of 2024 and in the Sp
 
 <p>
 The purpose of the POLS 308 lab was to solve game theoretic problems with the students to provide them with experience with solving the types of questions they would see in their homework and exams. Solving game theoretic questions involves applied calculus. Unfortunately, however, due to course requirement issues, completing a university-level calculus course was not a prerequisite for enrollment in this course. As such, much of my office hours were spent reviewing both calculus and our covered solution concepts with students, who often struggled greatly with the materials. 
+
+<p>
+
+   <h2>Figure One</h2>
+   
+   
+<img src="Images/phil_gramm_graphic.png" alt="Figure One" width="800">
+
+
 <p>
 
 
-<figure>
-    <img src="Images/phil_gramm_graphic.png" alt="Description of image" class="image">
-  <figcaption>Figure One</figcaption>
-</figure>
+<!--  <figure style="width: 25%"> -->
+<!--     <img src="Images/phil_gramm_graphic.png"> -->
+<!--   <figcaption>Figure One</figcaption> -->
+<!-- </figure> -->
 
 
-</body>
+<!-- </body> -->
 
 <p>
 
@@ -82,17 +82,25 @@ The purpose of the POLS 308 lab was to solve game theoretic problems with the st
 
 The average teaching evaluation scores for each section are shown in Figure 1 above. Each dot represents a section taught, with the responses organized on a course-semester basis. The graphics show that, on average, my sections have rated me very highly in my ability to foster an effective learning environment, contribute to their learning, and encourage their self-learning. Additionally, Figure 2 shows the grade distributions for each semester. For most semesters, the median grade each semester was a high B, with some outliers receiving failing grades within each semester. Both my evaluation and grade distributions are slightly lower for POLS 308. I attribute these lower rankings to the extreme difficulty many political science students had with the applied calculus utilized in the course. 
 
+<p>
+
+   <h2>Figure Two</h2>
+   
+<img src="Images/phil_gramm_grades.png" alt="Figure One" width="800">
+
+
+
 
 <p>
 
 
-<body>
+<!-- <body> -->
 
 
-<figure>
-    <img src="Images/phil_gramm_grades.png" alt="Description of image" class="image">
-  <figcaption>Figure Two</figcaption>
-</figure>
+<!--  <figure style="width: 25%"> -->
+<!--     <img src="Images/phil_gramm_grades.png"> -->
+<!--   <figcaption>Figure Two</figcaption> -->
+<!-- </figure> -->
 
 
 
@@ -107,21 +115,4 @@ For an overview of my teaching evaluations, see the Teaching Evaluation Overview
 
 </body>
 
-
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Two Images Side by Side</title>
-  <style>
-    .image-container {
-      display: flex;
-      justify-content: space-between;
-    }
-    .image-container img {
-      width: 48%; /* Adjust the percentage as needed */
-      height: auto;
-    }
-  </style>
-</head>
 ```
