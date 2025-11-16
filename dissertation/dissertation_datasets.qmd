@@ -1,0 +1,59 @@
+---
+title: "Geographic Barrier Data Download"
+---
+
+
+```{=html}
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Unit of Analysis</th>
+      <th>Description</th>
+      <th>Download</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Raw Dataset</td>
+      <td>country<sub>i</sub>-country<sub>j</sub>-latitude-longitude-year</td>
+      <td>
+        The raw spatial dataset, where the NASA observations are aggregated to the yearly level for particular locations at country borders.
+      </td>
+      <td><a href="/datasets/raw_geo_bar.dta" download>Download</a></td>
+    </tr>
+
+    <tr>
+      <td>Directed Dyad Dataset</td>
+      <td>country<sub>i</sub>-country<sub>j</sub>-year</td>
+      <td>
+        A non-spatial dataset that includes aggregated values of geographic barriers and border infrastructure at the directed-dyad-year level.
+      </td>
+      <td><a href="/datasets/ddirected_geo_bar.dta" download>Download</a></td>
+    </tr>
+
+    <tr>
+      <td>Monadic Dataset</td>
+      <td>country<sub>i</sub>-year</td>
+      <td>
+        A non-spatial dataset where the geographic variables and border infrastructure variables are aggregated to the country-year level.
+      </td>
+      <td><a href="/datasets/monadic_geo_bar.dta" download>Download</a></td>
+    </tr>
+
+    <tr>
+      <td>Between Dataset</td>
+      <td>country<sub>i</sub>-country<sub>j</sub>-latitude-longitude</td>
+      <td>
+        A spatial dataset where the geographic variables and border infrastructure variables are aggregated across time.
+      </td>
+      <td><a href="/datasets/between_geo_bar.dta" download>Download</a></td>
+    </tr>
+
+
+  </tbody>
+</table>
+
+
+```

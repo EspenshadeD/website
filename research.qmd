@@ -3,6 +3,10 @@ title: "Research"
 ---
 
 <!-- # A General Theory of Asylum Policy Making -->
+## Geographic Barriers, Border Infrastructure, and Asylum Policy ##
+
+[Geographic Barriers Datasets](research_qmd/dissertation/dissertation_datasets.qmd)
+
 
 ## Knowledge of Job Insecurities and Policy Preference Supplementary Materials
 
@@ -22,7 +26,7 @@ title: "Research"
 
 [Data Generation R-File (Power Analysis)](research_qmd/chap2/chap2_power_survey.qmd)
 
-[Power Analysis Plots R-File](research_qmd/chap2/chap2_power_survey_plot.qmd)
+<!-- [Power Analysis Plots R-File](research_qmd/chap2/chap2_power_survey_plot.qmd) -->
 
 [Power Analysis Justification](research_qmd/chap2/chap2_power_survey_just.qmd)
 
